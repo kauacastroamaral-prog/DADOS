@@ -5,7 +5,7 @@ require_once 'conexao.php';
 
 $sql =" CREATE TABLE IF NOT EXISTS usuarios (
 
-id INT  AUTO INCREMT PRIMARY KEY,
+id INT  AUTO_INCREMT PRIMARY KEY,
 nome VARCHAR (100) NOT NULL,
 email VARCHAR (50)  UNIQUE NOT NULL,
 telefone VARCHAR (20) UNIQUE NOT NULL,
