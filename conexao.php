@@ -14,7 +14,7 @@ $charset ='utf8mb4';
 
 try{
      
-    $pdo =new PDO("myslq:host= $host; dbname= $db; charset=$charset",
+    $pdo =new PDO("mysql:host=$host; dbname=$db; charset=$charset",
     $user,
     $pass
 );
